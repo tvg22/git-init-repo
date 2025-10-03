@@ -1,0 +1,80 @@
+
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 2.9 Form  and semantic HTML</title>
+</head>    
+<body>
+    <header>
+        <h1> Forms and semantic HTML</h1>
+        <p>Using semantic HTML elements to create forms.</p>
+        <p>Note: This page is for demonstration purposes only and does not process form submissions</p>
+        <nav>
+            <ul>
+                <li> <a href="https://developer.mozilla.org"></a>MON Web Docs-HTML Forms</li>
+                <li><a href="https://w3.org">W3 HTML Forms Spetification</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h2> Forms and semantic HTML</h2>
+<form action="https://google.com/search" method="GET">
+<p>
+    <label for="search">Search Google</label>
+    <input type="" id="search" name="q"
+    placeholder="Search Google" required>
+</p>
+<p>
+<button type="Submit">Search</button>    
+</p>
+</form>
+
+<form>
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"
+      placeholder="Enter your name" required>  
+    </p>
+
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"
+      placeholder="Enter your email" required>  
+    </p>
+
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"
+        placeholder="Enter your password" required>
+    </p>
+    <p>
+        <textarea placeholder="Your text" required></textarea>
+    </p>
+
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
+
+<form>
+    <div> Pick a color:</div>
+    <p>
+        <input type="radio" id="blue" name="option" value="blue" checked>
+        <label for="blue">Blue</label>
+    </p>
+
+      <p>
+        <input type="radio" id="red" name="option" value="red" >
+        <label for="red">Red</label>
+    </p>
+</form>
+</main>
+
+<footer>
+    <p> &copy;2025 Viktoriya Tyan</p>
+    <p>For more information visit the <a href="https://w3.org">W3 HTML Forms Spetification</a></p>
+</footer>
+</body>
+</html>
