@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-section{
+    background:#fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.main-section__title{
+    margin-bottom: 15px;
+    color: #667eea;
+}
+
+.example-row{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.example-box{
+    background: #667eea;
+    color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    font-size:20px;
+    text-align: center;
+}
+
+.shadow-basic{
+    box-shadow: 0px 4px 8px
+    rgba(45, 23, 172, 0.2);
+}
+
+.shadow-blur{
+    box-shadow: 15px 15px 30px 
+    rgba(45, 23, 172, 0.3)
+}
+
+.shadow-multiple{
+    box-shadow: 
+    0px 4px 8px rgba(45, 23, 172, 0.2),
+    0px 16px 32px rgba(29, 223, 51, 0.2),
+    0px 24px 48px rgba(224, 44, 8, 0.2),
+    0px 32px 64px rgba(214, 9, 149, 0.2),
+    0px 48px 86px rgba(192, 229, 6, 0.2);
+}
+
+.shadow-basic-text{
+    text-shadow: 2px 2px 4px rgba(45, 23, 172, 0.3)
+}
+
+.shadow-glow{
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8), 0 0 10px rgba(255, 0, 0, 0.6), 0 0 15px rgba(255, 0, 0, 0.4);
+}
+
+.border-radius{
+    border-radius:25px 60px 25px 60px;
+}
+
+.border-image{
+    border: 10px solid;
+    border-image: Linear-gradient(45deg, #ff6ec4, #7873f5)1;
+}
+
+.outline-effect{
+    outline: 10px solid #ff6ec4;
+    outline-offset:10px;
+}
+
+.blur-filter{
+    filter:blur(1px);
+}
